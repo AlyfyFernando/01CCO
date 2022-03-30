@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+
+.header{
+    border-bottom: 3px solid aqua ;
+}
+.conteiner {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .conteiner{
+    justify-content: space-between;
+}
+.header ul #aqui{
+    color: aqua;
+    font-weight: 800;
+}
+
+.titulo {
+    color:aqua;
+    width: fit-content;
+    font-weight: 500;
+}
+.navBar {
+    color: rgb(238, 137, 4);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding: 0;
+    align-items: center;
+    
+}
+ 
+.banner {
+    background-image: url("imgs/bg-jelly-fish-para-home.png");
+    height: 500px;
+    color: white;
+    display: flex;
+}
+.banner .conteiner p span {
+    font-weight: 1000;
+    
+    
+}
+.banner .conteiner {
+    font-size: 36px;
+    justify-content: center;
+}
+.banner .conteiner p{
+    width: 30%;
+
+}
+
+.social{
+    background-color: white;
+    display: flex;
+
+}
+.social .conteiner .boxes .box img{
+    width: 170px;
+}
+.social .conteiner .boxes {
+    display: flex;
+}
+.box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    background-color: aqua;
+    height: 150px;
+    color: white;
+    display: flex;
+    font-size: 20px;
+}
+.footer .conteiner {
+    justify-content: center;
+}
+a {
+    color: rgb(238, 137, 4);
+    text-decoration: none;
+}
+.banner .conteiner .card {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 3%;
+}
+.card h1 {
+    font-size: 30px;
+}
+.card h4 {
+    font-size: 16px;
+}
+.card input {
+    border: palevioletred solid 3px;
+    padding: 10px;
+    text-align: center;
+}
+.card button {
+    width: 100px;
+    height: 50px;
+    background-color: palevioletred;
+    margin-top: 25px;
+    font: 700 20px monospace;
+    color: white;
+    border: 0; 
+    border-radius: 4px;
+    cursor: pointer;
+}
